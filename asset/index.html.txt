@@ -6,19 +6,108 @@
 <link href="C:\Users\Admin\projeteval1\asset\bootstrap.bundle.min.js" rel="stylesheet">
 <link href="C:\Users\Admin\projeteval1\asset\bootstrap.min.css" rel="stylesheet">
 
+<style>
+h1{
+    text-align:center;
+    background-color: text-danger;
+    color: text-white;
+    font-size: 28px;
+}
+h2 {
+
+    background-color: text-info-accent;
+    color: text-white;
+    font-size: 16px;
+}
+h3{
+    color: text-danger;
+    font-size: 16px;
+}
+h4 {
+    font-size: 28px;
+    text-justify: center;
+
+}
+nav .onglets {
+    display: flex;
+flex-wrap: flex-wrap;
+}
+
+nav .onglets p {
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointeur;
+
+}
+
+
+</style>
+
+<body>
+
 <h1> Secours populaire Français, au secours des précaires depuis plus de 78 ans </h1>
-<h2> historique de l'association </h2>
+<hr>
+<img src="C:\Users\Admin\projeteval1\asset\Secours_populaire_logo.svg.png" alt=Logo secours populaire>
+
+<!--> Je pense que ca serrai bien de mettre un petit historique </!-->
+
+<h2> <em> historique de l'association </em> </h2>
 <p> Le Secours populaire français (SPF), est une association française de solidarité à but non lucratif, qui intervient sur le plan matériel, médical, moral et juridique, auprès des personnes victimes de l’injustice sociale, des calamités naturelles, de la misère, de la faim, du sous-développement, des conflits armés.
 
-En 2018, le Secours populaire français a aidé 3 265 030 personnes grâce aux 80 000 bénévoles et aux 29,6 millions d'euros de dons de particuliers recueillis par l'association2.
+En 2018, le Secours populaire français a aidé 3 265 030 personnes grâce aux 80 000 bénévoles et aux 29,6 millions d'euros de dons de particuliers recueillis par l'association.
 
-Avec un budget annuel de 314 millions d'euros, le SPF était en 2013 la troisième association française d'aide sociale en termes de budget, derrière la Croix-Rouge française et le Secours catholique (respectivement 1 4704 et 338 millions d'euros5), mais le premier réseau de bénévoles6.
+Avec un budget annuel de 314 millions d'euros, le SPF était en 2013 la troisième association française d'aide sociale en termes de budget, derrière la Croix-Rouge française et le Secours catholique (respectivement 1 470 et 338 millions d'euros5), mais le premier réseau de bénévoles.
 
-En 2023, le Secours populaire français compte 98 fédérations, 662 comités locaux et 90 000 bénévoles. 
+En 2023, le Secours populaire français compte 98 fédérations, 662 comités locaux et 90 000 bénévoles. <a href src="https://fr.wikipedia.org/wiki/Secours_populaire_fran%C3%A7ais>wikipedia </a>
 
+<hr>
+
+</p>
+<h2> Organisation de la SPF </h2>
+<p> Tous les deux ans, les orientations du Secours populaire sont décidées et votées en congrès national. Elles sont préparées par des rencontres avec les collecteurs dans les antennes, les assemblées générales des comités et les congrès départementaux. Ces moments statutaires10 donnent lieu à de multiples échanges avec les partenaires du SPF (collecteurs, bénéficiaires de l'aide, pouvoirs publics, décideurs économiques), tant en France qu'à l'étranger. Les directions, élues à tous les niveaux par les collecteurs eux-mêmes, suivent, durant deux ans, la mise en œuvre des orientations.
+
+Afin de coordonner et d'impulser le mouvement sur le plan national, les structures élues par le Congrès (conseil d'administration et son secrétariat, comité national, bureau national, commission financière) se réunissent régulièrement plusieurs fois par an.
+
+Plusieurs structures communiquent et travaillent de concert pour la solidarité :
+
+Comité : S'articulant à l’échelle d'une ville, les comités sont le fondement démocratique de l'association. Le comité est animé bénévolement par les animateurs collecteurs et dirigé par un bureau (élu en Assemblée générale) composé d'au moins un secrétaire général, un trésorier et des secrétaires.
+Antenne : N'ayant pas de structure juridique, l'antenne dépend d'un comité ou d'une fédération départementale. Elle est le point de relais de quelques animateurs collecteurs.
+Fédération : A l'échelon départemental, elle fédère les comités et anime les antennes. Elle est dirigée par le comité départemental, élu tous les deux ans lors du congrès départemental.
+Conseils de région : Regroupement des fédérations à l'échelle régionale, il structure la mutualisation des moyens, et peut bâtir des projets d'ampleur et renforcer l'entraide entre les fédérations.
+Association nationale : Elle est le garant du respect des orientations de l'association. Elle anime le réseau décentralisé et vient en soutien pour la gestion, le droit, la communication et l'animation. Elle est l'image de l'association auprès des médias, entreprises et pouvoirs publics.
+<a href src="https://fr.wikipedia.org/wiki/Secours_populaire_fran%C3%A7ais>wikipedia </a>
 </p>
 
 
+
+<!-- Je vais créer un formulaire en ligne  pour faire des dons même si au départ j'avais pensé à faire une boutique e-commerce pour faire original -->
+
+<nav> <h3> boutique de dons </h3>
+<form action="" methode="POST"> 
+<div> 
+<label for="name"> nom : </label>
+<input id= "name" type="text">
+</div>
+<br>
+<div>
+<label for="email"> email : </label>
+<input id= "email" type="email" required>
+</div>
+<br>
+<div>
+<label for="dons"> dons : </label>
+<input id= "dons" type="text" required>
+</div>
+<br>
+<input type="button" value="envoyer">
+</form>
+
+
+
+
+
+</nav>
+</body>
 
 
 
