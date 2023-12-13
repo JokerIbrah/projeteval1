@@ -78,6 +78,18 @@ Association nationale : Elle est le garant du respect des orientations de l'asso
 <a href src="https://fr.wikipedia.org/wiki/Secours_populaire_fran%C3%A7ais>wikipedia </a>
 </p>
 
+<h2> Evenement national </h2>
+<div class="container">
+2 <div class="row">
+3 <ul class="list-group col-6 mx-auto ">
+4 <li class="list-group-item"><i class="bi bi-hand-thumbs-up-fill me-2"></i>10/12/23-18/12/23: Pére Noël à Dijon</li>
+5 <li class="list-group-item list-group-item-primary active" ariacurrent="true">15/12/23: Soupe Solidaire à Aix-lès-Bains</li>
+6 <li class="list-group-item list-group-item-warning d-flex justify-content-between
+align-items-center">16/12/23: Goûter de Noël à Avignon, parade Copain du Monde à Manosque, caravane de Noël à Caen, repas de Noël à Aix-lès-Bains<span class="badge bg-primary roundedpill">2</span></li>
+7 <li class="list-group-item list-group-item-success">20/12/23: Goûter de Noël à Roubais, 250 repas étoilé à Marseille<i class="bi bi-hand-thumbs-up-fill ms-2"></i></li>
+8 <li class="list-group-item list-group-item-success">24/12/23-30/12/23: Séjour au ski <i class="bi bi-hand-thumbs-up-fill ms-2"></i></li>
+ <li class="list-group-item list-group-item-success">21/12/23: Colis de Noël à La Rochelle<i class="bi bi-hand-thumbs-up-fill ms-2"></i></li>
+9 </ul>
 
 
 <!-- Je vais créer un formulaire en ligne  pour faire des dons même si au départ j'avais pensé à faire une boutique e-commerce pour faire original -->
