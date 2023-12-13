@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta> <name="description"> <content="ONG caritative"> </meta>
+<title> Secours populaire</title>
+<link href="C:\Users\Admin\projeteval1\asset\bootstrap.bundle.min.js" rel="stylesheet">
+<link href="C:\Users\Admin\projeteval1\asset\bootstrap.min.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <h1> nous contacter 
+        <a href> </a>
+    </h1>
+</footer>
+
+</head>
+
+
+
+
+
+
+</html>
